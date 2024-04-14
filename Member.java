@@ -7,10 +7,9 @@ import java.sql.SQLException;
 
 public class Member {
 
-    private String email;
     private Connection connection;
 
-    // Constructor
+
     public Member(Connection connection) {
         this.connection = connection;
     }

@@ -7,7 +7,6 @@ import java.sql.SQLException;
 public class AdministrativeStaff {
     private Connection connection;
     
-    // Constructor
     public AdministrativeStaff(Connection connection) {
         this.connection = connection;
     }

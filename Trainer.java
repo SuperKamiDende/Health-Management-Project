@@ -44,7 +44,7 @@ public class Trainer {
             preparedStatement.setString(2, date);
             preparedStatement.setString(3, time);
             ResultSet resultSet = preparedStatement.executeQuery();
-            isAvailable = resultSet.next(); // Trainer is available if a row with availability = true is returned
+            isAvailable = resultSet.next();
             resultSet.close();
             preparedStatement.close();
         } catch (SQLException e) {
